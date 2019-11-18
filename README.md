@@ -4,7 +4,7 @@ So i thought about creating a basic iOS checklist and let the iOS developers com
 As Apple now believes in the power of the community and made Swift Open Source, we as iOS community need to think in the same direction and create a good checklist that can be used as reference to any iOS developer around the world looking to deliver a high end product.
 
 ## How can I contribute?
-Please read our [contributing guidelines](CONTRIBUTING.md).
+Please read our [contributing guidelines](CONTRIBUTING.md) and [code of conduct](CODE_OF_CONDUCT.md).
 
 ## License
 [MIT Licensed](LICENSE.md).
