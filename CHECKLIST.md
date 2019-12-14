@@ -29,6 +29,9 @@
 - Project architectural pattern,, make sure you follow the project's architectural pattern
 - Responsibility, ask yourself if this code is the responsibility of the layer you added in or not eg.rounded corner, shadows are the view responsibility not the model or the business logic, but if it&#39;s for a cell shall the cell set it or the viewController ?!
 - Naming convention, make sure you follow the project&#39;s naming convention
+- Prefer dependency injection for dependencies.
+- Prefer Composition over inheritance as Swift does not support multiple inheritance.
+  - create Protocols and extend them using Protocol Extensions to provide default method implementations. This allows us to create much cleaner code, compared to what we could implement by relying solely on the Classical Inheritance pattern.  
 
 ## Performance
 
@@ -42,9 +45,9 @@
 
 ## UI
 
-- Different screen sizes, does the design fit on all screen sizes
-- Constraints logic
-- Fonts, spacing and colors
+- Different screen sizes, does the design fit on all screen sizes.
+- Constraints logic, does the constraints logic makes sense or will break in any case.
+- Fonts, spacing and colors, do they match the prototype, are they added in a 1 generic place for reusing.
 - "Empty states" for all views which can be empty. An empty state should always be there and make clear, how to add content
 
 ## Requirements
